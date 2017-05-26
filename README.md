@@ -64,7 +64,7 @@ You can also use a Dockerfile to include your own scripts without using volumes.
 
 It contains a folder `/util`. It provides utility scripts. 
 
-## `runEvery.sh`
+## runEvery.sh
 
 Cron has a granularity of 1 minute. This script is intended to be used to run a cron task every `n` seconds. 
 
@@ -72,9 +72,11 @@ Cron has a granularity of 1 minute. This script is intended to be used to run a 
 
 * Echo Hello every 10 seconds, for one minute, then stop
 
+
     $ /util/runEvery.sh 10 "echo Hello"
 
 * Run script `/scripts/task.sh` every second, for one minute, then stop
+
 
     $ /util/runEvery.sh 1 /scripts/task.sh
 
