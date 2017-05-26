@@ -73,6 +73,7 @@ Cron has a granularity of 1 minute. This script is intended to be used to run a 
 Echo Hello every 10 seconds, for one minute, then stop
 
 
+
     $ /util/runEvery.sh 10 "echo Hello"
 
 Run script `/scripts/task.sh` every second, for one minute, then stop

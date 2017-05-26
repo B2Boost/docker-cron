@@ -1,5 +1,5 @@
 FROM python:2.7-slim
-MAINTAINER Hamilton Turner <hamiltont@gmail.com>
+MAINTAINER Luis Muniz <luis.muniz@b2boost.com>
 
 # Yay devcron
 RUN pip install https://bitbucket.org/dbenamy/devcron/get/tip.tar.gz
